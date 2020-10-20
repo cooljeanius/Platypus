@@ -9,71 +9,54 @@
 	<key>BundledFiles</key>
 	<array/>
 	<key>Creator</key>
-	<string>Platypus-4.7</string>
-	<key>Destination</key>
-	<string>/Users/sveinbjorn/Desktop/MyApp.app</string>
-	<key>DestinationOverride</key>
+	<string>Platypus-5.3</string>
+	<key>Overwrite</key>
 	<false/>
 	<key>DevelopmentVersion</key>
 	<false/>
-    <key>Example</key>
-    <true/>
-    <key>ScriptName</key>
-    <string>ProcessMenu.sh</string>
-    <key>Script</key>
-    <string>#!/bin/sh 
+	<key>Example</key>
+	<true/>
+	<key>ScriptName</key>
+	<string>ProcessMenu.sh</string>
+	<key>Script</key>
+	<string>#!/bin/sh 
         
 # terse process listing
 ps cax
 
 </string>
+	<key>DocIconPath</key>
+	<string></string>
 	<key>Droppable</key>
 	<false/>
-	<key>ExecutablePath</key>
-	<string>/usr/local/share/platypus/ScriptExec</string>
-	<key>FileTypes</key>
-	<array>
-		<string>****</string>
-	</array>
 	<key>IconPath</key>
 	<string></string>
 	<key>Identifier</key>
 	<string>org.sveinbjorn.ProcessMenu</string>
-	<key>Interpreter</key>
+	<key>InterpreterPath</key>
 	<string>/bin/sh</string>
 	<key>Name</key>
 	<string>ProcessMenu</string>
-	<key>NibPath</key>
-	<string>/usr/local/share/platypus/MainMenu.nib</string>
 	<key>OptimizeApplication</key>
 	<false/>
-	<key>Output</key>
+	<key>InterfaceType</key>
 	<string>Status Menu</string>
 	<key>InterpreterArgs</key>
 	<array/>
 	<key>RemainRunning</key>
 	<true/>
-	<key>Role</key>
-	<string>Viewer</string>
-	<key>Secure</key>
-	<false/>
-	<key>ShowInDock</key>
+	<key>RunInBackground</key>
 	<true/>
 	<key>StatusItemDisplayType</key>
 	<string>Text</string>
 	<key>StatusItemIcon</key>
-	<data>
-	</data>
+	<data></data>
 	<key>StatusItemTitle</key>
 	<string>PS</string>
 	<key>Suffixes</key>
-	<array>
-		<string>*</string>
-	</array>
+	<array/>
 	<key>TextBackground</key>
 	<string>#ffffff</string>
-	<key>TextEncoding</key>
-	<integer>4</integer>
 	<key>TextFont</key>
 	<string>Monaco</string>
 	<key>TextForeground</key>

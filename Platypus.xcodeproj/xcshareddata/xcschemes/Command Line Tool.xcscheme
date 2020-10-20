@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1140"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+<<<<<<< HEAD:Platypus.xcodeproj/xcshareddata/xcschemes/Command Line Tool.xcscheme
+               BlueprintIdentifier = "F4E1F6FB11F758FB007EE2E3"
+               BuildableName = "platypus_clt"
+               BlueprintName = "platypus"
+=======
+               BlueprintIdentifier = "F4DC737C21644E0400D79823"
+               BuildableName = "CLT Tests"
+               BlueprintName = "CLT Tests"
+>>>>>>> 417878b343d6ada21ad7dee48424e299e827c6f4:Platypus.xcodeproj/xcshareddata/xcschemes/CLT Tests.xcscheme
+               ReferencedContainer = "container:Platypus.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Development"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Development"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+<<<<<<< HEAD:Platypus.xcodeproj/xcshareddata/xcschemes/Command Line Tool.xcscheme
+      buildConfiguration = "Development">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F4E1F6FB11F758FB007EE2E3"
+            BuildableName = "platypus_clt"
+            BlueprintName = "platypus"
+            ReferencedContainer = "container:Platypus.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+         <AdditionalOption
+            key = "NSExceptionLoggingEnabled"
+            value = "YES"
+            isEnabled = "YES">
+         </AdditionalOption>
+      </AdditionalOptions>
+=======
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+>>>>>>> 417878b343d6ada21ad7dee48424e299e827c6f4:Platypus.xcodeproj/xcshareddata/xcschemes/CLT Tests.xcscheme
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Deployment"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+<<<<<<< HEAD:Platypus.xcodeproj/xcshareddata/xcschemes/Command Line Tool.xcscheme
+      buildConfiguration = "Deployment">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F4E1F6FB11F758FB007EE2E3"
+            BuildableName = "platypus_clt"
+            BlueprintName = "platypus"
+            ReferencedContainer = "container:Platypus.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+=======
+      debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F4DC737C21644E0400D79823"
+            BuildableName = "CLT Tests"
+            BlueprintName = "CLT Tests"
+            ReferencedContainer = "container:Platypus.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+>>>>>>> 417878b343d6ada21ad7dee48424e299e827c6f4:Platypus.xcodeproj/xcshareddata/xcschemes/CLT Tests.xcscheme
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Development">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Deployment"
+      customArchiveName = "platypus_clt"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

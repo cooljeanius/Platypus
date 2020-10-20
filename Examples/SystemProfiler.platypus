@@ -6,9 +6,14 @@
 	<false/>
 	<key>Author</key>
 	<string>Sveinbjorn Thordarson</string>
+	<key>AcceptsFiles</key>
+	<true/>
+	<key>AcceptsText</key>
+	<false/>
 	<key>BundledFiles</key>
 	<array/>
 	<key>Creator</key>
+<<<<<<< HEAD:Examples/SystemProfiler.platypus
 	<string>Platypus-4.7</string>
 	<key>Destination</key>
 	<string>/Users/sveinbjorn/Desktop/MyApp.app</string>
@@ -47,21 +52,60 @@
 	<false/>
 	<key>Output</key>
 	<string>Text Window</string>
+=======
+	<string>Platypus-5.3</string>
+	<key>Overwrite</key>
+	<false/>
+	<key>DevelopmentVersion</key>
+	<false/>
+	<key>Example</key>
+	<true/>
+	<key>ScriptName</key>
+	<string>SpeakDroplet.sh</string>
+	<key>Script</key>
+	<string>#!/bin/sh 
+# Pipe the contents of first file argument to &apos;say&apos;,
+# which is the command line interface to Apple&apos;s Speech Synthesizer.
+
+echo &quot;Speaking...&quot;
+cat $1 | say
+
+    </string>
+	<key>DocIconPath</key>
+	<string></string>
+	<key>Droppable</key>
+	<true/>
+	<key>IconPath</key>
+	<string></string>
+	<key>Identifier</key>
+	<string>org.sveinbjorn.SpeakDroplet</string>
+	<key>InterpreterPath</key>
+	<string>/bin/sh</string>
+	<key>Name</key>
+	<string>SpeakDroplet</string>
+	<key>OptimizeApplication</key>
+	<false/>
+	<key>InterfaceType</key>
+	<string>Droplet</string>
+>>>>>>> 417878b343d6ada21ad7dee48424e299e827c6f4:Examples/SpeakDroplet.platypus
 	<key>InterpreterArgs</key>
 	<array/>
 	<key>RemainRunning</key>
 	<true/>
+<<<<<<< HEAD:Examples/SystemProfiler.platypus
 	<key>Role</key>
 	<string>Viewer</string>
 	<key>Secure</key>
 	<false/>
 	<key>ShowInDock</key>
+=======
+	<key>RunInBackground</key>
+>>>>>>> 417878b343d6ada21ad7dee48424e299e827c6f4:Examples/SpeakDroplet.platypus
 	<false/>
 	<key>StatusItemDisplayType</key>
 	<string>Text</string>
 	<key>StatusItemIcon</key>
-	<data>
-	</data>
+	<data></data>
 	<key>StatusItemTitle</key>
 	<string>MyApp</string>
 	<key>Suffixes</key>
@@ -70,8 +114,6 @@
 	</array>
 	<key>TextBackground</key>
 	<string>#ffffff</string>
-	<key>TextEncoding</key>
-	<integer>4</integer>
 	<key>TextFont</key>
 	<string>Monaco</string>
 	<key>TextForeground</key>

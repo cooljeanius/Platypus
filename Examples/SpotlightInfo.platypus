@@ -4,72 +4,61 @@
 <dict>
 	<key>Authentication</key>
 	<false/>
+	<key>AcceptsFiles</key>
+	<true/>
+	<key>AcceptsText</key>
+	<false/>
 	<key>Author</key>
 	<string>Sveinbjorn Thordarson</string>
 	<key>BundledFiles</key>
 	<array/>
 	<key>Creator</key>
-	<string>Platypus-4.7</string>
-	<key>Destination</key>
-	<string>/Users/sveinbjorn/Desktop/MyApp.app</string>
-	<key>DestinationOverride</key>
+	<string>Platypus-5.3</string>
+	<key>Overwrite</key>
 	<false/>
 	<key>DevelopmentVersion</key>
 	<false/>
-    <key>Example</key>
-    <true/>
-    <key>ScriptName</key>
-    <string>SpotlightInfo.sh</string>
-    <key>Script</key>
-    <string>#!/usr/bin/perl 
+	<key>Example</key>
+	<true/>
+	<key>ScriptName</key>
+	<string>SpotlightInfo.sh</string>
+	<key>Script</key>
+	<string>#!/usr/bin/perl 
 # Uses the mdls command to list meta data info on dropped files
-use Shell;
 
 foreach(@ARGV)
 {
-    print "META-DATA INFO FOR '$_':\n";
-    system("/usr/bin/mdls '$_'");
-    print "------------||------------\n\n";
+    print &quot;META-DATA INFO FOR &apos;$_&apos;:\n&quot;;
+    system(&quot;/usr/bin/mdls &apos;$_&apos;&quot;);
+    print &quot;------------||------------\n\n&quot;;
 }
     </string>
+	<key>DocIconPath</key>
+	<string></string>
 	<key>Droppable</key>
 	<true/>
-	<key>ExecutablePath</key>
-	<string>/usr/local/share/platypus/ScriptExec</string>
-	<key>FileTypes</key>
-	<array>
-		<string>****</string>
-        <string>fold</string>
-	</array>
 	<key>IconPath</key>
 	<string></string>
 	<key>Identifier</key>
 	<string>org.sveinbjorn.SpotlightInfo</string>
-	<key>Interpreter</key>
+	<key>InterpreterPath</key>
 	<string>/usr/bin/perl</string>
 	<key>Name</key>
 	<string>SpotlightInfo</string>
-	<key>NibPath</key>
-	<string>/usr/local/share/platypus/MainMenu.nib</string>
 	<key>OptimizeApplication</key>
 	<false/>
-	<key>Output</key>
+	<key>InterfaceType</key>
 	<string>Text Window</string>
 	<key>InterpreterArgs</key>
 	<array/>
 	<key>RemainRunning</key>
 	<true/>
-	<key>Role</key>
-	<string>Viewer</string>
-	<key>Secure</key>
-	<false/>
-	<key>ShowInDock</key>
+	<key>RunInBackground</key>
 	<false/>
 	<key>StatusItemDisplayType</key>
 	<string>Text</string>
 	<key>StatusItemIcon</key>
-	<data>
-	</data>
+	<data></data>
 	<key>StatusItemTitle</key>
 	<string>MyApp</string>
 	<key>Suffixes</key>
@@ -78,8 +67,6 @@ foreach(@ARGV)
 	</array>
 	<key>TextBackground</key>
 	<string>#ffffff</string>
-	<key>TextEncoding</key>
-	<integer>4</integer>
 	<key>TextFont</key>
 	<string>Monaco</string>
 	<key>TextForeground</key>
