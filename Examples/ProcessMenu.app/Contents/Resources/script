@@ -1,0 +1,5 @@
+#!/bin/sh 
+        
+# terse process listing
+ps cax
+

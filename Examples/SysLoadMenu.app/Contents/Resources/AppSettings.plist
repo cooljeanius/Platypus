@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AcceptsFiles</key>
+	<true/>
+	<key>AcceptsText</key>
+	<false/>
+	<key>Creator</key>
+	<string>Platypus-4.7</string>
+	<key>Droppable</key>
+	<false/>
+	<key>InterpreterArgs</key>
+	<array/>
+	<key>OutputType</key>
+	<string>Status Menu</string>
+	<key>RemainRunningAfterCompletion</key>
+	<true/>
+	<key>RequiresAdminPrivileges</key>
+	<false/>
+	<key>ScriptArgs</key>
+	<array/>
+	<key>ScriptInterpreter</key>
+	<string>/bin/sh</string>
+	<key>Secure</key>
+	<false/>
+	<key>StatusItemDisplayType</key>
+	<string>Text</string>
+	<key>StatusItemIcon</key>
+	<data>
+	TU0AKgAABAj///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////
+	AP///wD///8A////AP///wD///8A////AP///wD///8A////AJOHgf+TZlD/mmBD/5Rj
+	S/+OenH/////AP///wD///8A////AP///wD///8A////AP///wD///8ASDkw/4NWQP/J
+	fVb/1oRb/8Z7Vf/HfFb/3Ihd/4hZQf////8A////AP///wD///8A////AP///wD///8A
+	Wz4v/6RmR//IfVb/s3BN/5JaP/+cXT//uHBL/6trSv/Nf1f/jFc+/////wD///8A////
+	AP///wD///8A////AIt+d//Yhlz/sW5M/5deQv99SjH/XTUg/2Q3IP+3bEb/oVg3/6qX
+	jv9pbG//////AP///wD///8A////AP///wCBcGf/y35W/7ZxTv+RVzv/dUIp/6Wkpf+Y
+	nqH/g0ov/55KJP/awbX/qLS6/////wD///8A////AP///wD///8AfWFT/9CBWf+ta0r/
+	kU4u/31eTv///////////5WOi/+ZSST/lmtW/3B+hf////8A////AP///wD///8A////
+	AH5rYf/Tg1n/p2hI/5lRLv+NcGD/8v/////////Y6PH/k2NM/5pNJv8qHxX/rnFP/6Fh
+	P/////8A////AP///wD///8As29M/8B4Uv/CdlD/Yzom/yMtMv/b3+D//////5d1Xf+V
+	TzH/aUc+/2VGP/9tSDr/ZlJT/1JOXf////8A////AHxvaP/EelT/u3ZT/6RgP/8AAAD/
+	eIKG//vv4v9yU0b/WEld/2pgfv9XT2j/T0hd/2BSY/97eX7/////AP///wD///8Ad2JX
+	/8d8Vv+4c0//kVEw/45eRP+EXlH/Y1Vs/19YdP9kVmn/hHOO/1tRZf////8A////AP//
+	/wD///8A////AJFiS//CeFL/p2ZD/41nY/9WQkv/T0RY/3FpiP95aX//cmZ//2Zabv//
+	//8A////AP///wD///8A////AP///wCDUTj/75Bg/6xpRv9aVG//Qkpy/29Za/+FaHj/
+	WlRp/25dcv9rZ2v/////AP///wD///8A////AP///wD///8A////AJBlT/+wa0f/m2RO
+	/5BraP94ZHn/Uj9N/186Of/CfIP/dnBz/////wD///8A////AP///wD///8A////AP//
+	/wD///8A////AP///wCYhHb/gVQ8/z01Qv+rbHv/////AP///wD///8A////AP///wD/
+	//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A
+	////AP///wD///8AAA0BAAADAAAAAQAQAAABAQADAAAAAQAQAAABAgADAAAABAAABKoB
+	AwADAAAAAQABAAABBgADAAAAAQACAAABEQAEAAAAAQAAAAgBEgADAAAAAQABAAABFQAD
+	AAAAAQAEAAABFgADAAAAAQAQAAABFwAEAAAAAQAABAABHAADAAAAAQABAAABUgADAAAA
+	AQACAAABUwADAAAABAAABLIAAAAAAAgACAAIAAgAAQABAAEAAQ==
+	</data>
+	<key>StatusItemTitle</key>
+	<string>w</string>
+	<key>TextBackground</key>
+	<string>#ffffff</string>
+	<key>TextEncoding</key>
+	<integer>4</integer>
+	<key>TextFont</key>
+	<string>Monaco</string>
+	<key>TextForeground</key>
+	<string>#000000</string>
+	<key>TextSize</key>
+	<real>10</real>
+</dict>
+</plist>

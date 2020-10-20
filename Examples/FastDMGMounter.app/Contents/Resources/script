@@ -1,0 +1,11 @@
+#!/bin/sh -f
+# This is the script for FastDMGMounter
+# Create this as a droppable Platypus app
+# and use it for fast .dmg mounting and 
+# autoacceptance of the EULA
+        
+echo "Y" | /usr/bin/hdid "$1"
+
+# See http://www.tuaw.com/2011/12/30/daily-mac-app-flashmount-quickly-mounts-disk-images/
+
+    

@@ -1,0 +1,4 @@
+#!/bin/sh 
+# Print out system profiler info using Apple's tool
+/usr/sbin/system_profiler
+    
