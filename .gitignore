@@ -28,3 +28,4 @@ platypus.man.html
 Tests/platypus
 Tests/*.app
 Tests/args.txt
+.env.local
