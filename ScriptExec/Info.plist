@@ -4,10 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
-	<key>CFBundleExecutable</key>
-	<string>ScriptExec</string>
-	<key>CFBundleIconFile</key>
-	<string>PlatypusDefault.icns</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -24,8 +20,12 @@
 			<string>Viewer</string>
 		</dict>
 	</array>
+	<key>CFBundleExecutable</key>
+	<string>ScriptExec</string>
+	<key>CFBundleIconFile</key>
+	<string>PlatypusDefault.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.sveinbjorn.ScriptExec</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -36,7 +36,7 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
-    <key>NSServices</key>
+	<key>NSServices</key>
 	<array>
 		<dict>
 			<key>NSMenuItem</key>
@@ -51,7 +51,7 @@
 			<key>NSSendTypes</key>
 			<array>
 				<string>NSFilenamesPboardType</string>
-                <string>NSStringPboardType</string>
+				<string>NSStringPboardType</string>
 			</array>
 		</dict>
 	</array>
