@@ -28,4 +28,8 @@ platypus.man.html
 Tests/platypus
 Tests/*.app
 Tests/args.txt
+
+# Added by GitHub GUI:
 .env.local
+*.xcbuild
+XCBuildData/*

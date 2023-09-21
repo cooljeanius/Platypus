@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F4E1F6FB11F758FB007EE2E3"
                BuildableName = "platypus_clt"
-               BlueprintName = "platypus_clt"
+               BlueprintName = "platypus"
                ReferencedContainer = "container:Platypus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +46,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F4E1F6FB11F758FB007EE2E3"
             BuildableName = "platypus_clt"
-            BlueprintName = "platypus_clt"
+            BlueprintName = "platypus"
             ReferencedContainer = "container:Platypus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -63,7 +63,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F4E1F6FB11F758FB007EE2E3"
             BuildableName = "platypus_clt"
-            BlueprintName = "platypus_clt"
+            BlueprintName = "platypus"
             ReferencedContainer = "container:Platypus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
