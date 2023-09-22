@@ -1,3 +1,4 @@
+os: osx
 language: objective-c
 
 osx_image: xcode11.4 # On 10.14.6
