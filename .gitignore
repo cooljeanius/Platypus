@@ -33,3 +33,4 @@ Tests/args.txt
 .env.local
 *.xcbuild
 XCBuildData/*
+log/valet-*.log
