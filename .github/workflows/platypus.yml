@@ -13,6 +13,6 @@ jobs:
     - uses: maxim-lobanov/setup-xcode@v1.5.1
       with:
         xcode-version: '13.1'
-    - run: pods install
+    - run: pod install
     - run: make
     - run: make clt_tests
