@@ -9,10 +9,10 @@ jobs:
     runs-on: macos-latest
     steps:
     - name: checkout
-      uses: actions/checkout@v4.0.0
+      uses: actions/checkout@v4.1.0
     - uses: maxim-lobanov/setup-xcode@v1.5.1
       with:
-        xcode-version: '11.4'
-    - run: pods install
+        xcode-version: '13.1'
+    - run: if test -x "`which pods`"; then pods install; elif test -x "`which pod`" && test -e Podfile; then pod install; elif test -x "`which brew`"; then brew install platypus; else echo "skipping the install step"; fi
     - run: make
     - run: make clt_tests
