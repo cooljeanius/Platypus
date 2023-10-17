@@ -13,8 +13,8 @@ jobs:
     - uses: maxim-lobanov/setup-xcode@v1.5.1
       with:
         xcode-version: '13.1'
-    - run: if test -x "$(which pods)"; then pods install; elif test -x "$(which pod)" && test -e Podfile; then pod install; elif test -x "$(which brew)"; then brew install platypus; else echo "skipping the install step"; fi
+    - run: if test -x "$(which pods)"; then pods install; elif test -x "$(which pod)" && test -e Podfile; then pod install; elif test -x "$(which brew)"; then echo "using brew to install" && brew install platypus shellcheck; else echo "skipping the install step"; fi
     - run: make || xcodebuild || sh ./build_release.sh || ./make_examples.pl
-    - run: make clt_tests || (cd CLT/man/cat2html && ./build_cat2html.sh && cd .. && ./make_man_html.sh && cd ../.. && pwd) || (cd CommandLineTool && ./make_man_html.sh && ./make_man_pdf.sh && cd .. && pwd) || (if test -x "$(which shellcheck)"; then find . -name "*.sh" -print | tee /dev/stdout | xargs shellcheck; fi)
+    - run: make clt_tests || (cd CLT/man/cat2html && ./build_cat2html.sh && cd .. && ./make_man_html.sh && cd ../.. && pwd) || (cd CommandLineTool && ./make_man_html.sh && ./make_man_pdf.sh && cd .. && pwd) || (if test -x "$(which shellcheck)"; then find . -name "*.sh" -print | tee /dev/stdout | xargs shellcheck; else find . -name "*.sh" -print | tee /dev/stdout | xargs stat; fi)
     - run: sh ./srcloc.sh
     - run: cd Icons && sh ./make_icons.sh
