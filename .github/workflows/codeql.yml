@@ -70,7 +70,13 @@ jobs:
         # queries: security-extended,security-and-quality
 
     - name: Prep for build
-      run: xattr -w com.apple.xcode.CreatedByBuildSystem true /Users/runner/work/Platypus/Platypus/products
+      if: matrix.language == 'c-cpp'
+      run: |
+        if test -e /Users/runner/work/Platypus/Platypus/products; then \
+          xattr -w com.apple.xcode.CreatedByBuildSystem true /Users/runner/work/Platypus/Platypus/products; \
+        elif test -e /Users/runner/work/Platypus/Platypus; then \
+          xattr -w com.apple.xcode.CreatedByBuildSystem true /Users/runner/work/Platypus/Platypus; \
+        fi
 
     # Autobuild attempts to build any compiled languages (C/C++, C#, Go, Java, or Swift).
     # If this step fails, then you should remove it and run the build manually (see below)
