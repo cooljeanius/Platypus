@@ -26,4 +26,9 @@ jobs:
           elif test -x "$(which yamllint)"; then \
             which -a yamllint && yamllint .travis.yml; \
             stat "$(which yamllint)" && yamllint .github/dependabot.yml; \
+          elif test -x "$(which pylint)"; then \
+            which -a pylint && stat "$(which pylint)"; \
+            find . -name '*.py' -print | tee /dev/stdout | xargs pylint --errors-only --exit-zero; \
+          else \
+            sync && echo "No linting tools found!" && sleep 1; \
           fi
