@@ -46,10 +46,11 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: ['python']
+        language: ['actions', 'python']
         # CodeQL supports:
-        # ['c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'swift']
-        # Use 'java-kotlin' to analyze code written in Java, Kotlin or both
+        # 'actions', 'c-cpp', 'csharp', 'go', 'java-kotlin',
+        # 'javascript-typescript', 'python', 'ruby', 'swift'
+        # Use 'java-kotlin' to analyze code written in Java, Kotlin, or both
         # Use 'javascript-typescript' to analyze code written in JavaScript,
         # TypeScript or both
         # Learn more about CodeQL language support at:
