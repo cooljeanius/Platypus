@@ -22,7 +22,7 @@ jobs:
           elif test -x "$(which pod)" && test -r Podfile; then pod install; \
           elif test -x "$(which brew)"; then \
             echo "using brew to install"; \
-            export HOMEBREW_NO_REQUIRE_TAP_TRUST=1 && brew install shellcheck && brew install --cask platypus; \
+            export HOMEBREW_NO_REQUIRE_TAP_TRUST=1 && brew install actionlint pylint shellcheck yamllint; \
           else echo "skipping the install step"; fi
       - run: make || xcodebuild || sh ./build_release.sh || ./make_examples.pl || (stat make_examples.pl && wc -l make_examples.pl)
       - run: make clt_tests || (cd CLT/man/cat2html && ./build_cat2html.sh && cd .. && ./make_man_html.sh && cd ../.. && pwd) || (cd CommandLineTool && ./make_man_html.sh && ./make_man_pdf.sh && cd .. && pwd) || (if test -x "$(which shellcheck)"; then which -a shellcheck && (find . -name "*.sh" -print | tee /dev/stdout | xargs shellcheck --severity=error); else find . -name "*.sh" -print | tee /dev/stdout | xargs stat; fi)
