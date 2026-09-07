@@ -31,13 +31,19 @@ jobs:
       - name: lint
         run: |
           if test -x "$(which actionlint)"; then \
-            which -a actionlint && actionlint; \
-          elif test -x "$(which yamllint)"; then \
+            which -a actionlint && actionlint -verbose; \
+          else \
+            sync && echo "actionlint missing!"; \
+          fi
+          if test -x "$(which yamllint)"; then \
             which -a yamllint && yamllint .travis.yml; \
             stat "$(which yamllint)" && yamllint .github/dependabot.yml; \
-          elif test -x "$(which pylint)"; then \
+          else \
+            sync && echo "yamllint missing!"; \
+          fi
+          if test -x "$(which pylint)"; then \
             which -a pylint && stat "$(which pylint)"; \
             find . -name '*.py' -print | tee /dev/stdout | xargs pylint --errors-only --exit-zero; \
           else \
-            sync && echo "No linting tools found!" && sleep 1; \
+            sync && echo "pylint missing!"; \
           fi
